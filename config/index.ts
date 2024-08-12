@@ -13,7 +13,7 @@ export default defineConfig(async (merge, { command, mode }) => {
     designWidth: 750,
     deviceRatio: {
       640: 2.34 / 2,
-      750: 640 / 750,
+      750: 1,
       375: 2,
       828: 1.81 / 2
     },
